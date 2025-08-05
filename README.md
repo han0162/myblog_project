@@ -34,6 +34,9 @@ cd <你的儲存庫名稱>
 ```bash
 docker-compose up --build
 ```
+執行上述指令後，Docker Desktop 畫面將顯示成功運行。
+<img width="703" height="444" alt="image" src="https://github.com/user-attachments/assets/ee0ecc08-c707-419a-b922-f2c155a16215" />
+
 
 ### 3.瀏覽網站：
 一旦容器啟動並運行，你就可以在瀏覽器中透過以下網址訪問部落格：
@@ -46,15 +49,16 @@ http://localhost
 請注意：此為開發環境的預設帳密。在生產環境中務必修改！
 
 預設的管理員帳密是：root/1234566，您可以透過 http://localhost/login.html 進行登入。
-<img width="950" height="337" alt="image" src="https://github.com/user-attachments/assets/020275ae-9dc6-4d81-bdc3-14bdc900cc46" />
+<img width="934" height="431" alt="image" src="https://github.com/user-attachments/assets/c8d1e988-c56d-49a3-9071-46b9ca8d2b53" />
 
 ---
 
 ### 建立/編輯文章
 
-- 登入管理員帳號後，將看到「發布新文章」和編輯、刪除現有文章的選項。
+- 登入管理員帳號後，將看到「發布新文章」和「編輯」、「刪除」的選項。
 - 文章編輯頁面支援 Markdown 內容撰寫，並包含即時預覽功能。
-<img width="935" height="500" alt="image" src="https://github.com/user-attachments/assets/d7c544b8-69ad-4f41-b058-c558c753d2b0" />
-<img width="944" height="502" alt="image" src="https://github.com/user-attachments/assets/5ce26507-4b71-44d0-a22d-af62e8ae53c7" />
-<img width="944" height="497" alt="image" src="https://github.com/user-attachments/assets/404b5e8d-49f8-4ac7-a328-31b183ca3e05" />
+<img width="946" height="495" alt="image" src="https://github.com/user-attachments/assets/99be5c72-495d-4511-8ead-d88b7f495b6a" />
+<img width="929" height="178" alt="image" src="https://github.com/user-attachments/assets/cb79a94a-2556-4ac7-89f7-afe5076548af" />
+
+
 
