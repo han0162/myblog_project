@@ -26,21 +26,34 @@
 ### 安裝步驟
 ### 1. 複製專案：
 ```bash
-git clone <你的儲存庫網址>
-cd <你的儲存庫名稱>
+git clone https://github.com/han0162/myblog_project.git
+cd myblog_project
 ```
 
 ### 2.使用 Docker Compose 建立並運行：
+此指令會自動建構映像檔，並啟動 Flask 與 MySQL 服務 (適合第一次執行或有修改 Dockerfile 時使用)。
+若你已經建構過映像檔，僅需執行 docker-compose up 即可啟動。
 ```bash
 docker-compose up --build
 ```
-執行上述指令後，Docker Desktop 畫面將顯示成功運行。
-<img width="703" height="444" alt="image" src="https://github.com/user-attachments/assets/ee0ecc08-c707-419a-b922-f2c155a16215" />
 
 
 ### 3.瀏覽網站：
-一旦容器啟動並運行，你就可以在瀏覽器中透過以下網址訪問部落格：
+根據你的執行環境，請依照以下方式在瀏覽器中開啟部落格：
+
+- 🖥️ 本機端執行
+請在瀏覽器中輸入：
+(本專案將容器內的 Flask 服務（8080 埠）映射至主機的 80 埠，因此無需加上埠號。)
+```bash
 http://localhost
+```
+
+- ☁️ 虛擬機或遠端主機執行
+請使用該主機的 IP 位址或網域名稱：
+```bash
+http://<虛擬機的 IP 位址>
+```
+
 
 ---
 
