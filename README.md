@@ -19,7 +19,7 @@
 以下說明將引導你在本地機器上搭建和運行此專案，以便進行開發和測試。
 
 ### 環境需求
-你的系統上需要安裝 Docker 和 Docker Compose。
+請先在系統上安裝 Docker。若使用 Windows 或 macOS，建議安裝 Docker Desktop：
 
 - Docker Desktop：https://www.docker.com/products/docker-desktop/
 
